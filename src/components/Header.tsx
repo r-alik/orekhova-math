@@ -3,7 +3,7 @@ import mathColor from '../assets/math-colorful.svg';
 
 const Header = () => {
   return (
-    <header className='w-2/3 h-20 basis-20 flex-1 flex gap-5 justify-between items-center font-pacifico px-4'>
+    <header className='sm:w-2/3 w-11/12 h-20 basis-20 flex-1 flex gap-5 justify-between items-center font-pacifico px-4'>
       <div>
         <img width='62' src={mathColor} alt='' />
       </div>
@@ -11,7 +11,7 @@ const Header = () => {
         <ul className='flex justify-between gap-4 text-gray-700'>
           <li>
             <a
-              className='border py-1 px-2 h-full rounded-md text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
+              className='border py-1 px-2 h-full rounded-md text-sm sm:text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
               href='#main'
             >
               Про нас
@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className='border py-1 px-2 h-full rounded-md text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
+              className='border py-1 px-2 h-full rounded-md text-sm sm:text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
               href='#videos'
             >
               Відео
@@ -27,7 +27,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className='border py-1 px-2 h-full rounded-md text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
+              className='border py-1 px-2 h-full rounded-md text-sm sm:text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
               href='#testimonial'
             >
               Відгуки
@@ -35,7 +35,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className='border py-1 px-2 h-full rounded-md text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
+              className='border py-1 px-2 h-full rounded-md text-sm sm:text-xl tracking-wide cursor-pointer hover:bg-cyan-50'
               href='#contacts'
             >
               Контакти

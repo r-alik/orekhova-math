@@ -8,7 +8,7 @@ const Layout = ({
   children: ReactNode;
 }) => {
   return (
-    <section id={idName} className='w-2/3 h-full mx-auto px-2 py-4'>
+    <section id={idName} className='sm:w-2/3 w-11/12 h-full mx-auto px-2 py-4'>
       {children}
     </section>
   );
