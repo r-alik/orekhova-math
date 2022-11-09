@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../public/fonts/Pacifico-Regular.ttf');
+}
+
+/* @layer base {
+  html {
+    font-family: 'Pacifico';
+  }
+} */
