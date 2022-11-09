@@ -13,7 +13,7 @@ const Videos = () => {
               className='border rounded-xl overflow-hidden'
               key={v.id || v.title}
             >
-              <img src={v.img} alt={v.imgDesc} />
+              <img className='mx-auto' src={v.img} alt={v.imgDesc} />
               <h3 className='pl-2 py-3 font-pacifico text-xl mb-2 text-gray-800'>
                 {v.title}
               </h3>
